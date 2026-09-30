@@ -16,4 +16,4 @@ Get-ChildItem -Recurse -Depth 3 | Where-Object { $_.FullName -notmatch '\\(node_
 Get-ChildItem -Recurse -Depth 3 | Where-Object { $_.FullName -notmatch '\\(node_modules|\.next|\.git|\.idea)($|\\)' } | ForEach-Object { $p = Resolve-Path -Relative $_.FullName; if ($p) { $p } else { $_.Name } }
 ```
 
-## Github heatmap error
+## GitHub heatmap error
