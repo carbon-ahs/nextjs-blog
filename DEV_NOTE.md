@@ -2,7 +2,7 @@
 
 ## Continue from
 
-https://nextjs.org/learn/pages-router/data-fetching-request-time
+https://nextjs.org/learn/pages-router/dynamic-routes-polishing-index-page
 
 ## see file structures
 
